@@ -2,8 +2,8 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='ml-48'><div
-    className="py-3 pr-16 pl-3.5 mt-40 max-w-full bg-white rounded-sm shadow-sm w-[1170px] max-md:pr-5 max-md:mt-10 max-md:mr-2"
+    <div className=''><div
+    className="py-3 pr-16 pl-3.5 mt-40 max-w-full bg-white rounded-sm shadow-sm w-[1170px] max-md:pr-5 max-md:mt-10 max-md:mr-2 ml-20"
     role="region"
     aria-label="Product Details"
   >
@@ -118,15 +118,15 @@ const page = () => {
     </div>
   </div>
 
-
+<div className=' sm:mr-36'>
   <div
-  className="flex flex-col justify-center items-center px-20 py-28 mt-32 w-full text-base font-semibold leading-loose bg-slate-50 text-slate-400 max-md:px-5 max-md:py-24 max-md:mt-10 max-md:max-w-full"
+  className="  flex flex-col justify-center items-center px-20 py-28 mt-32 w-full text-base font-semibold leading-loose bg-slate-50 text-slate-400 max-md:px-5 max-md:py-24 max-md:mt-10 max-md:max-w-full sm:mr-36 "
   role="region"
   aria-label="Product Description Section"
 >
-  <div className="flex flex-col -mb-6 max-w-full w-[1171px] max-md:mb-2.5">
+  <div className="flex flex-col -mb-6 max-w-full w-[1171px] max-md:mb-2.5 mr-36 sm:mr-36 " >
     <nav
-      className="flex gap-10 max-w-full text-2xl text-violet-950 w-[666px]"
+      className="flex gap-10 max-w-full text-2xl text-violet-950 w-[666px] sm:mr-36"
       role="tablist"
     >
       <button
@@ -165,10 +165,10 @@ const page = () => {
     <div
       role="tabpanel"
       aria-label="Description Content"
-      className="mt-14 max-md:mt-10"
+      className="mt-14 max-md:mt-10 sm:mr-36 "
     >
-      <h2 className="text-2xl text-violet-950">Varius tempor.</h2>
-      <p className="mt-3.5 mr-5 leading-7 max-md:mr-2.5 max-md:max-w-full">
+      <h2 className="text-2xl text-violet-950 sm:mr-36" >Varius tempor.</h2>
+      <p className="mt-3.5 mr-5 leading-7 max-md:mr-2.5 max-md:max-w-full sm:mr-36">
         Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare
         faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac
         est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque,
@@ -234,16 +234,16 @@ const page = () => {
       </div>
     </div>
   </div>
-</div>
+</div></div>
 <div
-  className="flex flex-col self-center mt-32 max-w-full w-[1167px] max-md:mt-10"
+  className="flex flex-col self-center mt-32 max-w-full w-[1167px] max-md:mt-10 ml-12  "
   role="region"
   aria-label="Related Products Section"
 >
   <h2 className="self-start text-4xl font-bold text-center text-indigo-950">
     Related Products
   </h2>
-  <div className="mt-12 max-md:mt-10 max-md:max-w-full">
+  <div className="mt-12 max-md:mt-10 max-md:max-w-full sm:">
     <div className="flex gap-5 max-md:flex-col">
       <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
         <img
