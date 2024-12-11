@@ -26,7 +26,7 @@ export default function Home() {
     <ShopexOffers/>
     <Unique/>
     <Trendingproducts1/>
-    <div className="mt-10 max-w-full w-[1160px] ml-11">
+    <div className="mt-10 max-w-full w-[1160px] ">
   <div className="flex gap-5 max-md:flex-col">
     <div className="flex flex-col w-[38%] max-md:ml-0 max-md:w-full">
       <div
@@ -144,7 +144,7 @@ export default function Home() {
   </div>
 </div>
 <h1 className='text-3xl font-bold text-[#1A0B5B] text-center my-10 '>Discount Item</h1> 
-   <Twentyprcnt/>
+   <Twentyprcnt />
    <h1 className='text-3xl font-bold text-[#1A0B5B] text-center my-10 '>Top Categories</h1> 
    <Topcategory/>
    <Baner/>

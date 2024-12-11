@@ -1,6 +1,6 @@
 export default function Trendingproducts1() {
     return (
-      <div className="max-w-7xl mx-auto px-4 py-8">
+      <div className="max-w-7xl mx-auto ml-3 py-8">
         {/* Trending Products Heading */}
         <h1 className='text-3xl font-bold text-[#1A0B5B] text-center my-10 '>Trending products</h1> 
   

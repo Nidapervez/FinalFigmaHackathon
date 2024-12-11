@@ -8,7 +8,7 @@ const page = () => {
  <div className='ml-20 mx-24 my-32'><Accesories/></div>
 
 <div className='flex'>
-<div>
+<div className='hidden md:block lg:block'>
 
 <div
   className="flex flex-col items-start w-full text-base text-center text-slate-500 max-md:mt-9ml-52 mx-24 ml-20  "

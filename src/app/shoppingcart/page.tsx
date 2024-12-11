@@ -92,22 +92,22 @@ const page = () => {
                     <div className="flex gap-5 max-md:flex-col">
                       <div className="flex flex-col w-[26%] max-md:ml-0 max-md:w-full">
                         <div className="flex flex-col grow whitespace-nowrap max-md:mt-10">
-                          <div className="text-xl font-bold text-blue-900">Price</div>
-                          <div className="self-start mt-20 text-sm text-blue-950 max-md:mt-10">
+                          <div className="text-xl font-bold text-blue-900 hidden lg:block md:block ">Price</div>
+                          <div className="self-start mt-20 text-sm text-blue-950 max-md:mt-10 hidden lg:block md:block">
                             $32.00
                           </div>
                         </div>
                       </div>
                       <div className="flex flex-col ml-5 w-[46%] max-md:ml-0 max-md:w-full">
                         <div className="flex flex-col grow text-xl font-bold text-blue-900 whitespace-nowrap max-md:mt-10">
-                          <div>Quantity</div>
+                          <div className='hidden lg:block md:block'>Quantity</div>
 
                         </div>
                       </div>
                       <div className="flex flex-col ml-5 w-[28%] max-md:ml-0 max-md:w-full">
                         <div className="flex flex-col whitespace-nowrap max-md:mt-10">
-                          <div className="text-xl font-bold text-blue-900">Total</div>
-                          <div className="mt-20 text-sm text-blue-950 max-md:mt-10 max-md:mr-0.5">
+                          <div className="text-xl font-bold text-blue-900 hidden lg:block md:block ">Total</div>
+                          <div className="mt-20 text-sm text-blue-950 max-md:mt-10 max-md:mr-0.5 hidden lg:block md:block">
                             £219.00
                           </div>
                         </div>
@@ -339,7 +339,7 @@ const page = () => {
           <button
             type="submit"
             className="px-16 py-3.5 mt-6 font-bold text-white bg-pink-500 rounded hover:bg-pink-600 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2 sm:px-5 sm:w-full"
-          >Continue shopping
+          >Calculate shipping
           </button>
 
 

@@ -74,7 +74,7 @@ const BlogPost = () => {
 </div>
 
           </div>
-          <div className="flex flex-col ml-5 w-[24%] max-md:ml-0 max-md:w-full">
+          <div className=" flex-col ml-5 w-[24%] max-md:ml-0 max-md:w-full hidden md:block lg:block ">
             <div className="flex flex-col items-start w-full max-md:mt-10 ml-8">
               <form role="search" className="w-full">
                 <label
@@ -245,10 +245,10 @@ const BlogPost = () => {
 </div>
 
 </div>
-<div className='ml-14'>
+<div className='ml-14 hidden md:block lg:block '>
 
 <div
-  className="flex flex-col items-start rounded-none max-w-[267px] mr-32"
+  className="flex flex-col items-start rounded-none max-w-[267px] mr-32  "
   role="region"
   aria-label="Sale and Offer Products"
 >
@@ -403,7 +403,7 @@ const BlogPost = () => {
   role="navigation"
   aria-label="Tag navigation"
 >
-  <div className="flex flex-col text-violet-950">
+  <div className=" flex-col text-violet-950 hidden md:block lg:block ">
     <h2 className="self-start text-2xl font-semibold">Tags</h2>
     <a
       href="#general"
@@ -419,7 +419,7 @@ const BlogPost = () => {
     </a>
   </div>
   <div className="flex flex-col self-end mt-10">
-    <div className="flex gap-5 justify-between">
+    <div className=" gap-5 justify-between hidden md:block lg:block">
       <a
         href="#atsanil"
         className="text-pink-500 underline decoration-auto decoration-solid underline-offset-auto hover:text-pink-600 focus:outline-none focus:ring-2 focus:ring-pink-500"
@@ -428,14 +428,14 @@ const BlogPost = () => {
       </a>
       <a
         href="#insas"
-        className="underline decoration-auto decoration-solid text-violet-950 underline-offset-auto hover:text-violet-800 focus:outline-none focus:ring-2 focus:ring-violet-500"
+        className="    underline decoration-auto decoration-solid text-violet-950 underline-offset-auto hover:text-violet-800 focus:outline-none focus:ring-2 focus:ring-violet-500"
       >
         Insas.
       </a>
     </div>
     <a
       href="#nulla"
-      className="self-start mt-3 underline decoration-auto decoration-solid text-violet-950 underline-offset-auto hover:text-violet-800 focus:outline-none focus:ring-2 focus:ring-violet-500"
+      className=" hidden md:block lg:block self-start mt-3 underline decoration-auto decoration-solid text-violet-950 underline-offset-auto hover:text-violet-800 focus:outline-none focus:ring-2 focus:ring-violet-500"
     >
       Nulla.
     </a>

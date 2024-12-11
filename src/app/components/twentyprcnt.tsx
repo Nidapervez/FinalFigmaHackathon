@@ -2,7 +2,7 @@ import React from 'react'
 
 const Twentyprcnt = () => {
   return (
-    <div className='ml-11'><div>
+    <div className='ml-11 hidden lg:block sm:block'><div>
     <div className="flex gap-5 max-md:flex-col">
       <div className="flex flex-col w-[43%] max-md:ml-0 max-md:w-full">
         <div className="flex z-10 flex-col self-stretch my-auto w-full max-md:mt-10 max-md:mr-0 max-md:max-w-full">

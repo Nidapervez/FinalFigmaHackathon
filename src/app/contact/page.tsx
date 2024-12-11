@@ -2,7 +2,7 @@ import React from 'react';
 
 const Page = () => {
   return (
-    <div className=" my-32">
+    <div className=" my-32 ">
      <div
     className="flex flex-col justify-center items-start px-20 py-28 mt-6 w-full text-center bg-violet-50 max-md:px-5 max-md:pb-24 max-md:max-w-full"
     role="region"
@@ -41,7 +41,7 @@ const Page = () => {
   </div>
 
       {/* Flex Container to display Information About Us and Contact Way side by side */}
-      <div className="flex gap-12 mt-44 max-md:flex-col max-md:gap-8 mx-11">
+      <div className="flex gap-12 mt-44 max-md:flex-col max-md:gap-8 mx-11 ml-16">
         {/* Information About Us Section */}
         <section className="flex-1 text-4xl font-bold leading-none text-violet-950 max-md:mt-10">
           <h2>Information About Us</h2>
@@ -112,8 +112,9 @@ const Page = () => {
       </section>
 
       <div>
-      <div className='flex'><form className="flex flex-col text-base rounded max-w-[534px] text-slate-400 mx-36">
-  <div className="flex flex-wrap gap-6 w-full tracking-normal max-md:max-w-full">
+      <div className='flex'>
+      <form className="flex flex-col text-base rounded w-full sm:max-w-[534px] mx-36">
+  <div className="flex flex-wrap gap-6 w-full tracking-normal">
     <div className="grow">
       <label htmlFor="name" className="sr-only">
         Your Name
@@ -122,9 +123,8 @@ const Page = () => {
         type="text"
         id="name"
         name="name"
-    
         placeholder="Your Name*"
-        className="w-full px-3 py-3.5 rounded border border-solid border-slate-400 border-opacity-70 max-md:pr-5"
+        className="w-full px-3 py-3.5 rounded border border-solid border-slate-400 border-opacity-70"
         aria-required="true"
       />
     </div>
@@ -137,7 +137,7 @@ const Page = () => {
         id="email"
         name="email"
         placeholder="Your E-mail"
-        className="w-full px-3 py-3.5 rounded border border-solid border-slate-400 border-opacity-70 max-md:pr-5"
+        className="w-full px-3 py-3.5 rounded border border-solid border-slate-400 border-opacity-70"
       />
     </div>
   </div>
@@ -149,33 +149,31 @@ const Page = () => {
       type="text"
       id="subject"
       name="subject"
-     
       placeholder="Subject*"
-      className="w-full px-3 py-3.5 tracking-normal rounded border border-solid border-slate-400 border-opacity-70 max-md:pr-5 max-md:max-w-full"
+      className="w-full px-3 py-3.5 tracking-normal rounded border border-solid border-slate-400 border-opacity-70"
       aria-required="true"
     />
   </div>
-  <div className="mt-12 max-md:mt-10">
+  <div className="mt-12">
     <label htmlFor="message" className="sr-only">
       Type Your Message
     </label>
     <textarea
       id="message"
       name="message"
-      
       placeholder="Type Your Message*"
-      className="w-full px-3 pt-4 pb-28 tracking-normal rounded border border-solid border-slate-400 border-opacity-70 max-md:pr-5 max-md:pb-28 max-md:max-w-full"
+      className="w-full px-3 pt-4 pb-28 tracking-normal rounded border border-solid border-slate-400 border-opacity-70"
       aria-required="true"
-      defaultValue={""}
     />
   </div>
   <button
     type="submit"
-    className="self-start px-11 py-2.5 mt-8 leading-relaxed text-white bg-pink-500 rounded max-md:px-5"
+    className="self-start px-11 py-2.5 mt-8 leading-relaxed text-white bg-pink-500 rounded"
   >
     Send Mail
   </button>
 </form>
+
 <div className='ml-32 -mt-12'>
 <div
   className="flex flex-col max-w-[692px]"

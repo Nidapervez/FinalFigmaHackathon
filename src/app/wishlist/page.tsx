@@ -165,7 +165,7 @@ const page = () => {
     <div
       role="tabpanel"
       aria-label="Description Content"
-      className="mt-14 max-md:mt-10 sm:mr-36 "
+      className="mt-14 max-md:mt-10 sm:mr-36 hidden md:block lg:block"
     >
       <h2 className="text-2xl text-violet-950 sm:mr-36" >Varius tempor.</h2>
       <p className="mt-3.5 mr-5 leading-7 max-md:mr-2.5 max-md:max-w-full sm:mr-36">
